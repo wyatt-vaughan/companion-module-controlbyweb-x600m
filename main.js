@@ -55,23 +55,26 @@ class X600Instance extends InstanceBase {
 				width: 6,
 				regex: Regex.IP,
 			},
-			{
+
+			  {
 				type: 'static-text',
-				id: 'apiPollInfo',
+				id: 'apiPollingDisclaimer',
 				width: 12,
-				label: 'API Poll Interval warning',
-				value:
-				  'Adjusting the API Polling Interval can impact performance. <br />' +
-				  'A lower invterval allows for more responsive feedback, but may impact CPU usage. <br />' +
-				  'See the help section for more details.',
-			  },
+				value: `
+							
+							<h5>WARNING</h5>
+							API polling of the X600M may be delayed further than 500ms when showing feedbacks.
+							
+						`,
+			},
+			  
 			{
 				type: 'number',
 				id: 'apiPollInterval',
 				label: 'API Polling interval (ms) (default: 500, min: 250)',
 				width: 6,
 				default: 500,
-				min: 100,
+				min: 250,
 				max: 60000,
 			  },
 			{
