@@ -1,4 +1,4 @@
 ## Control By Web X600m
 
-Control an X600M.
+Control and view feedback from an X600M.
 
