@@ -1,0 +1,26 @@
+{
+	"id": "controlbyweb-x600m",
+	"name": "controlbyweb-x600m",
+	"shortname": "x600m",
+	"description": "Control CBW x600m web relay",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-aws-elementallive.git",
+	"bugs": "https://github.com/bitfocus/companion-module-aws-elementallive/issues",
+	"maintainers": [
+		{
+			"name": "Wyatt Vaughan",
+			"email": "w.vaughan.2021@gmail.com"
+		}
+	],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "Control By Web",
+	"products": ["x600M"],
+	"keywords": ["Relay"]
+}
