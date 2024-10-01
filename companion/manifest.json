@@ -5,8 +5,8 @@
 	"description": "Control CBW x600m web relay",
 	"version": "0.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-aws-elementallive.git",
-	"bugs": "https://github.com/bitfocus/companion-module-aws-elementallive/issues",
+	"repository": "git+https://github.com/bitfocus/companion-module-controlbyweb-x600m.git",
+	"bugs": "https://github.com/bitfocus/companion-module-controlbyweb-x600m/issues",
 	"maintainers": [
 		{
 			"name": "Wyatt Vaughan",
