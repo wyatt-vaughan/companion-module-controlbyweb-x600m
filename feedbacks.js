@@ -10,20 +10,6 @@ export function getFeedbacks() {
 	const ColorGreen = combineRgb(0, 200, 0)
 	const ColorOrange = combineRgb(255, 102, 0)
 
-	let eventStatusChoices = [
-		{ id: 'running', label: 'Running' },
-		{ id: 'pending', label: 'Pending' },
-		{ id: 'complete', label: 'Complete' },
-		{ id: 'error', label: 'Error' },
-		{id: 'preprocessing', label: 'Preprocessing'},
-		{id: 'postprocessing', label: 'Postprocessing'},
-	]
-
-	let systemStatusChoices = [
-		{ id: 'green_status', label: 'Running' },
-		{ id: 'orange_status', label: 'Pending' },
-	]
-
 	feedbacks['relayValue'] = {
 		type: 'boolean',
 		name: 'Relay Value Status',
